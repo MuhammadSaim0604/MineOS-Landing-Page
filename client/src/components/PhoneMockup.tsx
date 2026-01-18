@@ -29,7 +29,7 @@ export function PhoneMockup({ src, alt, className, glowColor = "green" }: PhoneM
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-6 bg-black rounded-b-xl z-20" />
         
         {/* Screen Content */}
-        <div className="relative rounded-[2rem] overflow-hidden bg-background aspect-[9/19]">
+        <div className="relative rounded-[2rem] overflow-hidden bg-background aspect-[9/19.6]">
           <img 
             src={src} 
             alt={alt} 
