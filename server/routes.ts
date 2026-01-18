@@ -36,7 +36,7 @@ app.get('/register/', (req, res) => {
 
   if (refCode) {
     // Redirect to rat://signup with the same referral code
-    res.redirect(`rat://signup?refercode=${refCode}`);
+    res.redirect(`mineos://signup?refercode=${refCode}`);
   } else {
     // If no referral code, you can redirect elsewhere or show a message
     res.send('No referral code provided.');
