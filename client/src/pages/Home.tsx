@@ -440,7 +440,7 @@ export default function Home() {
               <source src="/tutorial.mp4" type="video/mp4" />
               Your browser does not support the video tag.{' '}
               <a
-                href="https://youtu.be/etluT8UC-nw?si=qmXqSYlL2hnULDUk"
+                href="/tutorial.mp4"
                 target="_blank"
                 rel="noreferrer"
                 className="text-primary underline"
